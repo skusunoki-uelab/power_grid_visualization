@@ -102,18 +102,17 @@ cp temp_clone/shikata/*.ipynb ./
 rm -rf temp_clone
 ```
 
-```
-
 #### ディレクトリ構成例
+
 ```
-shikata/                               # 分析対象の地域ディレクトリ
-└── result/                            # シミュレーション結果ディレクトリ
-    ├── results_shikata.mat            # シミュレーション結果ファイル（既存）
-    ├── csPosition_dss_shikata.csv     # クローンしたファイル
-    ├── df_location_processed.csv      # クローンしたファイル
-    ├── Hnode.csv                      # クローンしたファイル
-    ├── plot_summarized_load_cstype.ipynb   # クローンしたファイル
-    └── read_matdata_summarizedload.ipynb   # クローンしたファイル
+shikata/                                        # 分析対象の地域ディレクトリ
+└── result/                                     # シミュレーション結果ディレクトリ
+    ├── results_shikata.mat                     # シミュレーション結果ファイル（既存）
+    ├── csPosition_dss_shikata.csv              # クローンしたファイル
+    ├── df_location_processed.csv               # クローンしたファイル
+    ├── Hnode.csv                               # クローンしたファイル
+    ├── plot_summarized_load_cstype.ipynb       # クローンしたファイル
+    └── read_matdata_summarizedload.ipynb       # クローンしたファイル
 ```
 
 **注意**: 
